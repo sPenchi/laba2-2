@@ -81,6 +81,11 @@ namespace WindowsFormsApplication1
         {
             MessageBox.Show("Здраствуй"+textBox1.Text+"!", "Приветствие");
         }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
