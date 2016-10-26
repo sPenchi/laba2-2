@@ -76,6 +76,11 @@ namespace WindowsFormsApplication1
             T2_textBox3.Text = Convert.ToString(koren(Convert.ToDouble(T2_textBox1.Text), Convert.ToDouble(T2_textBox2.Text)));
         }
 
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Здраствуй"+textBox1.Text+"!", "Приветствие");
+        }
     }
 
 }
