@@ -31,7 +31,17 @@
             this.Laba = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.T2_textBox1 = new System.Windows.Forms.TextBox();
+            this.T2_textBox2 = new System.Windows.Forms.TextBox();
+            this.T2_textBox3 = new System.Windows.Forms.TextBox();
+            this.T2_button1 = new System.Windows.Forms.Button();
+            this.T2_button2 = new System.Windows.Forms.Button();
+            this.T2_button3 = new System.Windows.Forms.Button();
+            this.T2_button4 = new System.Windows.Forms.Button();
+            this.T2_button5 = new System.Windows.Forms.Button();
+            this.T2_button6 = new System.Windows.Forms.Button();
             this.Laba.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // Laba
@@ -57,6 +67,15 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.T2_button6);
+            this.tabPage2.Controls.Add(this.T2_button5);
+            this.tabPage2.Controls.Add(this.T2_button4);
+            this.tabPage2.Controls.Add(this.T2_button3);
+            this.tabPage2.Controls.Add(this.T2_button2);
+            this.tabPage2.Controls.Add(this.T2_button1);
+            this.tabPage2.Controls.Add(this.T2_textBox3);
+            this.tabPage2.Controls.Add(this.T2_textBox2);
+            this.tabPage2.Controls.Add(this.T2_textBox1);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -64,6 +83,87 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Калькулятор";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // T2_textBox1
+            // 
+            this.T2_textBox1.Location = new System.Drawing.Point(70, 55);
+            this.T2_textBox1.Name = "T2_textBox1";
+            this.T2_textBox1.Size = new System.Drawing.Size(141, 20);
+            this.T2_textBox1.TabIndex = 0;
+            // 
+            // T2_textBox2
+            // 
+            this.T2_textBox2.Location = new System.Drawing.Point(333, 55);
+            this.T2_textBox2.Name = "T2_textBox2";
+            this.T2_textBox2.Size = new System.Drawing.Size(139, 20);
+            this.T2_textBox2.TabIndex = 1;
+            // 
+            // T2_textBox3
+            // 
+            this.T2_textBox3.Location = new System.Drawing.Point(138, 403);
+            this.T2_textBox3.Name = "T2_textBox3";
+            this.T2_textBox3.Size = new System.Drawing.Size(262, 20);
+            this.T2_textBox3.TabIndex = 2;
+            // 
+            // T2_button1
+            // 
+            this.T2_button1.Location = new System.Drawing.Point(104, 136);
+            this.T2_button1.Name = "T2_button1";
+            this.T2_button1.Size = new System.Drawing.Size(75, 23);
+            this.T2_button1.TabIndex = 4;
+            this.T2_button1.Text = "Сложение";
+            this.T2_button1.UseVisualStyleBackColor = true;
+            this.T2_button1.Click += new System.EventHandler(this.T2_button1_Click);
+            // 
+            // T2_button2
+            // 
+            this.T2_button2.Location = new System.Drawing.Point(104, 217);
+            this.T2_button2.Name = "T2_button2";
+            this.T2_button2.Size = new System.Drawing.Size(75, 23);
+            this.T2_button2.TabIndex = 5;
+            this.T2_button2.Text = "Вычитание";
+            this.T2_button2.UseVisualStyleBackColor = true;
+            this.T2_button2.Click += new System.EventHandler(this.T2_button2_Click);
+            // 
+            // T2_button3
+            // 
+            this.T2_button3.Location = new System.Drawing.Point(104, 300);
+            this.T2_button3.Name = "T2_button3";
+            this.T2_button3.Size = new System.Drawing.Size(75, 22);
+            this.T2_button3.TabIndex = 6;
+            this.T2_button3.Text = "В степень";
+            this.T2_button3.UseVisualStyleBackColor = true;
+            this.T2_button3.Click += new System.EventHandler(this.T2_button3_Click);
+            // 
+            // T2_button4
+            // 
+            this.T2_button4.Location = new System.Drawing.Point(367, 136);
+            this.T2_button4.Name = "T2_button4";
+            this.T2_button4.Size = new System.Drawing.Size(75, 23);
+            this.T2_button4.TabIndex = 7;
+            this.T2_button4.Text = "Умножение";
+            this.T2_button4.UseVisualStyleBackColor = true;
+            this.T2_button4.Click += new System.EventHandler(this.T2_button4_Click);
+            // 
+            // T2_button5
+            // 
+            this.T2_button5.Location = new System.Drawing.Point(367, 217);
+            this.T2_button5.Name = "T2_button5";
+            this.T2_button5.Size = new System.Drawing.Size(75, 23);
+            this.T2_button5.TabIndex = 8;
+            this.T2_button5.Text = "Деление";
+            this.T2_button5.UseVisualStyleBackColor = true;
+            this.T2_button5.Click += new System.EventHandler(this.T2_button5_Click);
+            // 
+            // T2_button6
+            // 
+            this.T2_button6.Location = new System.Drawing.Point(367, 300);
+            this.T2_button6.Name = "T2_button6";
+            this.T2_button6.Size = new System.Drawing.Size(75, 23);
+            this.T2_button6.TabIndex = 9;
+            this.T2_button6.Text = "Корень";
+            this.T2_button6.UseVisualStyleBackColor = true;
+            this.T2_button6.Click += new System.EventHandler(this.T2_button6_Click);
             // 
             // Form1
             // 
@@ -74,6 +174,8 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Laba.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -83,6 +185,15 @@
         private System.Windows.Forms.TabControl Laba;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.Button T2_button6;
+        private System.Windows.Forms.Button T2_button5;
+        private System.Windows.Forms.Button T2_button4;
+        private System.Windows.Forms.Button T2_button3;
+        private System.Windows.Forms.Button T2_button2;
+        private System.Windows.Forms.Button T2_button1;
+        private System.Windows.Forms.TextBox T2_textBox3;
+        private System.Windows.Forms.TextBox T2_textBox2;
+        private System.Windows.Forms.TextBox T2_textBox1;
     }
 }
 
